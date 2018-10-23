@@ -1,0 +1,152 @@
+MAIL 
+
+MX cluster8.eu.messagelabs.com 85.158.137.99
+MX cluster8.eu.messagelabs.com 85.158.137.19
+MX cluster8.eu.messagelabs.com 85.158.140.211
+MX cluster8.eu.messagelabs.com 85.158.140.195
+MX cluster8.eu.messagelabs.com 85.158.139.51
+MX cluster8.eu.messagelabs.com 85.158.139.35
+MX cluster8.eu.messagelabs.com 85.158.139.19
+MX cluster8a.eu.messagelabs.com 85.158.139.103
+
+
+IP
+
+A bbc.com 212.58.246.78
+A bbc.com 212.58.246.79
+A bbc.com 212.58.244.22
+A bbc.com 212.58.244.23
+AAAA bbc.com 2001:41c1:4008::bbc:2
+AAAA bbc.com 2001:41c1:400c::bbc:1
+AAAA bbc.com 2001:41c1:400c::bbc:4
+AAAA bbc.com 2001:41c1:4008::bbc:3
+AAAA bbc.com 2001:41c1:4008::bbc:4
+AAAA bbc.com 2001:41c1:400c::bbc:3
+AAAA bbc.com 2001:41c1:4008::bbc:1
+AAAA bbc.com 2001:41c1:400c::bbc:2
+
+
+ZONE
+ 
+SOA ns.bbc.co.uk 132.185.161.100
+
+
+NAME SERVERS : authoritative for the zone 
+
+NS ns4.bbc.net.uk 156.154.65.17
+NS ns4.bbc.net.uk 2610:a1:1014::17
+NS ns3.bbc.co.uk 156.154.66.17
+NS ns3.bbc.co.uk 2610:a1:1015::17
+NS ns4.bbc.co.uk 156.154.67.17
+NS ns4.bbc.co.uk 2001:502:4612::17
+NS ns3.bbc.net.uk 156.154.64.17
+NS ns3.bbc.net.uk 2001:502:f3ff::17
+
+
+MAIL
+
+MX cluster8.eu.messagelabs.com 85.158.137.99
+MX cluster8.eu.messagelabs.com 85.158.137.19
+MX cluster8.eu.messagelabs.com 85.158.140.211
+MX cluster8.eu.messagelabs.com 85.158.140.195
+MX cluster8.eu.messagelabs.com 85.158.139.51
+MX cluster8.eu.messagelabs.com 85.158.139.35
+MX cluster8.eu.messagelabs.com 85.158.139.19
+MX cluster8a.eu.messagelabs.com 85.158.139.103
+
+
+IPv4
+
+A bbc.com 212.58.246.78
+A bbc.com 212.58.246.79
+A bbc.com 212.58.244.22
+A bbc.com 212.58.244.23
+
+
+IPv6 
+
+AAAA bbc.com 2001:41c1:4008::bbc:2
+AAAA bbc.com 2001:41c1:400c::bbc:1
+AAAA bbc.com 2001:41c1:400c::bbc:4
+AAAA bbc.com 2001:41c1:4008::bbc:3
+AAAA bbc.com 2001:41c1:4008::bbc:4
+AAAA bbc.com 2001:41c1:400c::bbc:3
+AAAA bbc.com 2001:41c1:4008::bbc:1
+AAAA bbc.com 2001:41c1:400c::bbc:2
+
+
+SENDER POLICY FRAMEWORK (avoid mail injection) 
+
+SPF v=spf1 ip4:212.58.224.0/19 ip4:132.185.0.0/16 ip4:78.136.53.80/28 ip4:78.136.14.192/27 ip4:78.136.19.8/29 ip4:89.234.10.72/29 ip4:74.112.66.33 ip4:208.251.80.51 ip4:89.202.185.0/24 ip4:207.159.133.98 ip4:207.159.133.99 include:msgfocus.com include:cmail1.com include:mktomail.com include:servers.mcsv.net include:redsnapper.net ?all
+
+
+
+TXT
+
+TXT bbc.com MS=ms25863558 
+(used for domain validation by Microsoft Office 365)
+
+TXT bbc.com Fzj91DPhHcxL3FxKMiBraJ9CajRin4nqr8AxflyEQLI+dM+xdOt5/I8F4xGMWelgP2SwFda7w8U2KZFjDR6Ocg==
+(Amazon SES Domain Verification TXT Records) 
+
+TXT bbc.com dropbox-domain-verification=mtgv0f2pudoz
+(Domain verification for Dropbox Business)  
+
+TXT bbc.com v=spf1 ip4:212.58.224.0/19 ip4:132.185.0.0/16 ip4:78.136.53.80/28 ip4:78.136.14.192/27 ip4:78.136.19.8/29 ip4:89.234.10.72/29 ip4:74.112.66.33 ip4:208.251.80.51 ip4:89.202.185.0/24 ip4:207.159.133.98 ip4:207.159.133.99 include:msgfocus.com include:cmail1.com include:mktomail.com include:servers.mcsv.net include:redsnapper.net ?all
+(for SPF records http://www.openspf.org/SPF_Record_Syntax) 
+
+
+SRV 
+
+SRV _sip._tls.bbc.com sip.bbc.com 207.82.79.70 443 0
+SRV _sip._tls.bbc.com sip.bbc.com 207.82.79.73 443 0
+SRV _xmpp-server._tcp.bbc.com sip.bbc.com 207.82.79.70 5269 0
+SRV _xmpp-server._tcp.bbc.com sip.bbc.com 207.82.79.73 5269 0
+SRV _sipfederationtls._tcp.bbc.com sip.bbc.com 207.82.79.70 5061 0
+SRV _sipfederationtls._tcp.bbc.com sip.bbc.com 207.82.79.73 5061 0
+
+(location of the server(s) for a specific protocol and domain. (https://tools.ietf.org/html/rfc2782))
+
+
+
+
+DNSSEC is not configured for bbc.com
+
+
+
+
+TTL
+
+gigo@gigo:~/dnsrecon$ dig +nocmd +multiline +noall +answer +ttlid any bbc.com @ns4.bbc.co.uk.
+bbc.com.		900 IN NS ns4.bbc.co.uk.
+bbc.com.		900 IN NS ns3.bbc.net.uk.
+bbc.com.		900 IN NS ns3.bbc.co.uk.
+bbc.com.		900 IN TXT "Fzj91DPhHcxL3FxKMiBraJ9CajRin4nqr8AxflyEQLI+dM+xdOt5/I8F4xGMWelgP2SwFda7w8U2KZFjDR6Ocg=="
+bbc.com.		900 IN TXT "MS=ms25863558"
+bbc.com.		300 IN MX 10 cluster8.eu.messagelabs.com.
+bbc.com.		900 IN NS ns4.bbc.net.uk.
+bbc.com.		900 IN TXT "dropbox-domain-verification=mtgv0f2pudoz"
+bbc.com.		900 IN SOA ns.bbc.co.uk. hostmaster.bbc.co.uk. (
+				2017101601 ; serial
+				1800       ; refresh (30 minutes)
+				600        ; retry (10 minutes)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+bbc.com.		900 IN TXT "v=spf1 ip4:212.58.224.0/19 ip4:132.185.0.0/16 ip4:78.136.53.80/28 ip4:78.136.14.192/27 ip4:78.136.19.8/29 ip4:89.234.10.72/29 ip4:74.112.66.33 ip4:208.251.80.51 ip4:89.202.185.0/24 ip4:207.159.133.98 ip4:207.159.133.99" " include:msgfocus.com include:cmail1.com include:mktomail.com include:servers.mcsv.net include:redsnapper.net ?all"
+bbc.com.		900 IN SPF "v=spf1 ip4:212.58.224.0/19 ip4:132.185.0.0/16 ip4:78.136.53.80/28 ip4:78.136.14.192/27 ip4:78.136.19.8/29 ip4:89.234.10.72/29 ip4:74.112.66.33 ip4:208.251.80.51 ip4:89.202.185.0/24 ip4:207.159.133.98 ip4:207.159.133.99" " include:msgfocus.com include:cmail1.com include:mktomail.com include:servers.mcsv.net include:redsnapper.net ?all"
+bbc.com.		300 IN MX 20 cluster8a.eu.messagelabs.com.
+bbc.com.		900 IN AAAA 2001:41c1:400c::bbc:4
+bbc.com.		900 IN AAAA 2001:41c1:400c::bbc:1
+bbc.com.		900 IN AAAA 2001:41c1:400c::bbc:3
+bbc.com.		300 IN A 212.58.246.78
+bbc.com.		900 IN AAAA 2001:41c1:4008::bbc:3
+bbc.com.		300 IN A 212.58.244.22
+bbc.com.		900 IN AAAA 2001:41c1:4008::bbc:4
+bbc.com.		900 IN AAAA 2001:41c1:4008::bbc:1
+bbc.com.		900 IN AAAA 2001:41c1:4008::bbc:2
+bbc.com.		300 IN A 212.58.244.23
+bbc.com.		300 IN A 212.58.246.79
+bbc.com.		900 IN AAAA 2001:41c1:400c::bbc:2
+
+

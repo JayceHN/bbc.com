@@ -1,0 +1,52 @@
+as.bbc.com
+IP address #1: 132.185.162.193
+
+av.bbc.com
+IP address #1: 207.82.79.75
+IP address #2: 207.82.79.72
+
+beta.bbc.com
+IP address #1: 212.58.244.82
+IP address #2: 212.58.246.113
+
+li.bbc.com
+IP address #1: 95.182.253.49
+IP address #2: 95.182.253.48
+
+m.bbc.com
+IP address #1: 212.58.246.173
+IP address #2: 212.58.244.162
+
+mobile.bbc.com
+IP address #1: 212.58.246.186
+IP address #2: 212.58.244.29
+
+sandbox.bbc.com
+IP address #1: 192.168.193.10
+[+] warning: internal IP address disclosed
+https://cwe.mitre.org/data/definitions/200.html
+
+search.bbc.com
+IP address #1: 212.58.246.160
+IP address #2: 212.58.244.157
+
+shop.bbc.com
+IP address #1: 207.159.133.98
+
+test.bbc.com
+IPv6 address #1: 2001:41c1:4008:d::bbc:88
+IPv6 address #2: 2001:41c1:4008:d::bbc:89
+s
+test.bbc.com
+IP address #1: 212.58.228.13
+
+tv.bbc.com
+IP address #1: 104.120.249.95
+
+webmail.bbc.com
+IP address #1: 132.185.162.192
+
+www.bbc.com
+IP address #1: 212.58.246.95
+IP address #2: 212.58.244.71
+
